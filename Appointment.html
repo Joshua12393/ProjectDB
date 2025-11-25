@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currimao Health Center</title>
+        <link rel="stylesheet" href="appointment.css"/>
+        <link rel="stylesheet" href="navbar.css"/>
+
+        <link rel="icon" href="Images/Logo.png" type="image/png">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="Container">
+                    <img class="Logo" src="Images/Logo.png" alt="Failed to load" width="50px">
+                    <h2 class="Trademark">Currimao Health Center</h2>
+                    
+                    <div class="Emergency-container">
+                        <img class="Phone-logo" src="Images/Phone.png" alt="Failed to load" width="50px">
+                        <h2 class="Emergency-word">Emergency</h2>
+                        <h2 class="Emergency-num">+639397218705</h2>
+                    </div>
+                    
+                    <div class="Work-hours-container">
+                        <img class="Clock-logo" src="Images/Clock.png" alt="Failed to load" width="50px">
+                        <h2 class="Work-word">Work Hours</h2>
+                        <h2 class="Work-time">8:00 AM - 6:00 PM Monday-Saturday</h2>
+                    </div>
+                </div>   
+            </nav>
+        </header>
+
+        <main>
+            <div class="Background-main"></div>
+            <div class="Appointment">
+                <h2 id="Title">APPOINTMENT</h2>
+            </div>
+
+            <form class="Appointment-form" action="/submit" method="post">
+                <div class="Form-group">
+                    <label id="PatientName" for="PatientName">Name</label><br>
+                    <input type="text" id="PatientName" name="PatientName" placeholder="Last Name, First Name, MI" required>
+                </div>
+
+                <div class="Form-group">
+                    <label for="PatientId">Patient ID</label>
+                    <input type="text" id="PatientId" name="PatientId" placeholder="6 Digits" pattern="\d{6}" required>
+                </div>
+
+                <div class="Form-group">
+                    <div class="Form-group">
+                        <label for="ContactNumber">Contact Number</label>
+                        <input 
+                            type="text" 
+                            id="ContactNumber" 
+                            name="ContactNumber" 
+                            placeholder="11 Digits" 
+                            pattern="\d{11}" 
+                            title="Enter exactly 11 digits" 
+                            required>
+                    </div>
+                </div>
+
+                <div class="Form-group">
+                    <label id="Address" for="Address">Address</label> <br>
+                    <input type="text" id="Address" name="Address" required>
+                </div>
+
+                <div class="Form-group">
+                    <label id="Concern" for="Concern">Concern</label><br>
+                    <textarea id="Concern" name="Concern" rows="5" cols="40"></textarea>
+                </div>
+
+                <div class="Form-group">
+                    <label id="AppWord" for="AppointmentDate">Select Date</label>
+                    <input type="date" id="AppointmentDate" name="Date">
+                </div>
+
+                <div class="Form-group">
+                    <label>Select Time</label>
+                    <div class="Time-row">
+                        <div>
+                            <input id="Time8" name="time" type="radio" value="8:00 AM"/>
+                            <label for="Time8">8:00 AM</label>
+                        </div>
+                        <div>
+                            <input id="Time9" name="time" type="radio" value="9:00 AM"/>
+                            <label for="Time9">9:00 AM</label>
+                        </div>
+                        <div>
+                            <input id="Time10" name="time" type="radio" value="10:00 AM"/>
+                            <label for="Time10">10:00 AM</label>
+                        </div>
+                        <div>
+                            <input id="Time11" name="time" type="radio" value="11:00 AM"/>
+                            <label for="Time11">11:00 AM</label>
+                        </div>
+                        <div>
+                            <input id="Time12" name="time" type="radio" value="12:30 PM"/>
+                            <label for="Time12">12:30 PM</label>
+                        </div>
+                        <div>
+                            <input id="Time13" name="time" type="radio" value="1:30 PM"/>
+                            <label for="Time13">1:30 PM</label>
+                        </div>
+                        <div>
+                            <input id="Time14" name="time" type="radio" value="2:30 PM"/>
+                            <label for="Time14">2:30 PM</label>
+                        </div>
+                        <div>
+                            <input id="Time15" name="time" type="radio" value="3:30 PM"/>
+                            <label for="Time15">3:30 PM</label>
+                        </div>
+                        <div>
+                            <input id="Time16" name="time" type="radio" value="4:30 PM"/>
+                            <label for="Time16">4:30 PM</label>
+                        </div>
+                        <div>
+                            <input id="Time17" name="time" type="radio" value="5:30 PM"/>
+                            <label for="Time17">5:30 PM</label>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" id="SubmitBtn" value="Submit">
+            </form>
+        </main>
+
+    </body>
+
+</html>

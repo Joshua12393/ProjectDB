@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #ffffffff;
+    font-family: Verdana;
+}
+
+nav {
+    background-color: rgba(254, 254, 254, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4px 24px;
+    padding-bottom: 1px;
+}
+
+.Trademark {
+    display: inline-block;
+    color: rgba(21, 86, 10, 1);
+    font-size: 24px;
+    position: relative;
+    margin: 0px 7px;
+    bottom: 15px;
+}
+
+.Emergency-container {
+    display: inline-block;
+    position: absolute;
+}
+
+.Phone-logo {
+    position: relative;
+    left: 330px;
+    top: 2px;
+}
+
+.Emergency-word {
+    position: relative;
+    left: 390px;
+    top: -58px;
+    font-size: 18px;
+}
+
+.Emergency-num {
+    position: relative;
+    left: 390px;
+    top: -70px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);  
+}
+
+.Work-hours-container {
+    display: inline-block;
+    position: absolute;
+}
+
+.Clock-logo {
+    position: relative;
+    left: 560px;
+    top: 0px;
+}
+
+.Work-time {
+    position: relative;
+    left: 620px;
+    top: -76px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);  
+}
+
+.Work-word {
+    position: relative;
+    left: 620px;
+    top: -65px;
+    font-size: 18px;
+}
+
+.Background-main {
+    width: 100%;
+    height: 100vh;                
+    background-image: url('Images/Clinic Background.png');
+    background-size: cover;        
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;                  
+    position: absolute;          
+    z-index: 2;  
+}

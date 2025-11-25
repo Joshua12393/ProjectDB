@@ -1,0 +1,77 @@
+#PatientName {
+    font-family: "Times New Roman";
+    font-style: italic;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -340px;
+}
+
+#PatientName:focus {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#PatientId {
+    font-family: "Times New Roman";
+    font-style: italic;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -340px;
+}
+
+#PatientId:focus {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#ContactNumber {
+    font-family: "Times New Roman";
+    font-style: italic;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -340px;
+}
+
+#ContactNumber:focus {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#Address {
+    font-family: "Times New Roman";
+    font-style: italic;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -340px;
+}
+
+#Address:focus {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#Concern {
+    font-family: "Times New Roman";
+    font-style: italic;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -340px;
+}
